@@ -10,3 +10,8 @@ def my_each(array)
 end
 
 #need to figure out how to return not nil
+def burger(toppings)
+  toppings.collect do |topping|
+    "I love #{topping} on my burgers"
+    end
+end
