@@ -10,4 +10,4 @@ def my_each(array)
   nuarray
 end
 
-my_each(array)
+my_each(array) {|i| }
