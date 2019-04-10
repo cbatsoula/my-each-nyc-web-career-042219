@@ -10,4 +10,3 @@ def my_each(array)
   nuarray
 end
 
-#need to figure out how to return not nil
