@@ -10,4 +10,3 @@ def my_each(array)
   nuarray
 end
 
-my_each(string) {|i| puts nuarray }
