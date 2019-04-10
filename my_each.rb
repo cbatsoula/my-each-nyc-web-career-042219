@@ -1,10 +1,11 @@
 def my_each(array)
-i = 0 
+  i = 0 
+  nuarray = []
     while i < array.length
-      yield array[i]
+      nuarray << yield(array[i])
       i += 1
-    
-
-end
+      
+      end
+  nuarray
 end
 
